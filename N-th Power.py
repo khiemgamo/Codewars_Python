@@ -8,7 +8,6 @@ array = [1, 2, 3] and N = 3, but N is outside of the array, so the result is -1.
 '''
 
 #Solution:
-
 def index(array, n):
     if n > (len(array)-1):
         return -1
