@@ -13,3 +13,10 @@ def index(array, n):
         return -1
     else:
         return array[n]**n
+
+#Solution 2:
+def index(array, n):
+    try:
+        return array[n]**n
+    except:
+        return -1
