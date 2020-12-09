@@ -23,3 +23,7 @@ def to_jaden_case(string):
     #join parts together using "space" as seperator
     result = " ".join(trump)
     return result
+
+#solution 2:
+def to_jaden_case(string):
+    return " ".join(word.capitalize() for word in string.split())
