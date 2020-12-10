@@ -17,3 +17,7 @@ def pig_it(text):
         else:
             word.append(pig[i].replace(pig[i][0],"",1) + pig[i][0] + "ay")
     return " ".join(word)
+
+#solution 2:
+def pig_it(text):
+    return " ".join(word[1:] + word[0:1] + "ay" if word.isalpha() else word for word in text.split())
