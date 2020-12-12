@@ -11,3 +11,7 @@ def solution(string):
     for i in range(len(string)-1,-1,-1):
         rev += string[i]
     return rev
+
+#solution 2:
+def solution(string):
+    return string[::-1]
