@@ -6,3 +6,7 @@ your program should return, "Hello, <name> how are you doing today?"
 #solution:
 def greet(name):
     return "Hello, " + name + " how are you doing today?"
+
+#solution 2:
+def greet(name):
+    return "Hello, {} how are you doing today?".format(name)
