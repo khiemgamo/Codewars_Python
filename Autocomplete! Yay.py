@@ -5,7 +5,7 @@
 If there are more than 5 matches, restrict your output to the first 5 results. If there are no matches, return an empty array.
 
 [+]Example:
-autocomplete('ai', ['airplane','airport','apple','ball']) = ['airplane','airport']
+autocomplete('ai', ['airplane','airport','apple','ball']) = ['airplane','airport'] 
 
 [+]For this kata, the dictionary will always be a valid array of strings. 
 Please return all results in the order given in the dictionary, even if they're not always alphabetical. 
